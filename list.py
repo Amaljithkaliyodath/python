@@ -23,7 +23,8 @@
 # my_list=["amal".true,1.2,1,['qwerty']]   #1
 
 
-a=[5,2,8,1,3]
-a.sort()
-print(a)
-print(a[::-1])
+# a=[5,2,8,1,3]
+# a.sort()                                #5
+# print(a)
+# print(a[::-1])
+

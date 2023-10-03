@@ -47,10 +47,10 @@
 
 
 
-k=1
-a=int(input("enter a number"))
-for i in range(0,a):
-   for j in range(i):
-     print(k,end='')
-     k=k+1
-     print('')
+# k=1
+# a=int(input("enter a number"))
+# for i in range(0,a):
+#    for j in range(i):
+#      print(k,end='')
+#      k=k+1
+#      print('')

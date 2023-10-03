@@ -23,8 +23,10 @@
 # a.reverse()
 # print(a)
 
-a=[1,4,6,9,5,4,0]
-a.sort()
-print(a)
+# a=[1,4,6,9,5,4,0]
+# a.sort()
+# print(a)
+
+
 
 

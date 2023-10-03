@@ -149,20 +149,70 @@
 # elif a<=4:
 #     print('good night')
 
-a=str(input('enter a character'))
-print(a.isdigit())
-print(a.isalpha())
-print(a.isalnum())
-if (a.upper()):
-  print(a,'is uppercase')
-elif (a.lower()):
-  print(a,'is lowercase')
-  
+# a=str(input('enter a character'))
+# print(a.isdigit())
+# print(a.isalpha())
+# print(a.isalnum())
+# if (a.upper()):
+#   print(a,'is uppercase')
+# elif (a.lower()):
+#   print(a,'is lowercase')
 
 
-
-
-
+# num1=int(input('enter frist number'))
+# num2=int(input('enter second number'))
+# op=input('enter any operator')
+# if op=='+':
+#     a=num1+num2
+#     print(a)
+# num1=int(input('enter frist number'))
+# num2=int(input('enter second number'))
+# op=input('enter any operator')
+# if op=='+':
+#     a=num1+num2
+#     print(a)
+# num1=int(input('enter frist number'))
+# num2=int(input('enter second number'))
+# op=input('enter any operator')
+# if op=='+':
+#     a=num1+num2
+#     print(a)
+# num1=int(input('enter frist number'))
+# num2=int(input('enter second number'))
+# op=input('enter any operator')
+# if op=='+':
+#     a=num1+num2
+#     print(a)
+# num1=int(input('enter frist number'))
+# num2=int(input('enter second number'))
+# op=input('enter any operator')
+# if op=='+':
+#     a=num1+num2
+#     print(a)
+# num1=int(input('enter frist number'))
+# num2=int(input('enter second number'))
+# op=input('enter any operator')
+# if op=='+':
+#     a=num1+num2
+#     print(a)
+# num1=int(input('enter frist number'))
+# num2=int(input('enter second number'))
+# op=input('enter any operator')
+# if op=='+':
+#     a=num1+num2
+#     print(a)
+# num1=int(input('enter frist number'))
+# num2=int(input('enter second number'))
+# op=input('enter any operator')
+# if op=='+':
+#     a=num1+num2
+#     print(a)
+# num1=int(input('enter frist number'))
+# num2=int(input('enter second number'))
+# op=input('enter any operator')
+# if op=='+':
+#     a=num1+num2
+#     print(a)
 # num1=int(input('enter frist number'))
 # num2=int(input('enter second number'))
 # op=input('enter any operator')
@@ -173,6 +223,67 @@ elif (a.lower()):
 #     b=num1-num2
 #     print (b)
 # elif op=='*':
+# elif a>=21 and a<=24:
+# elif a>=21 and a<=24:
+# elif a>=21 and a<=24:
+# elif a>=21 and a<=24:
+# elif a>=21 and a<=24:
+#     c=num1*num2
+#     print(c)
+# elif op=='/':
+#     d=num1/num2
+#     print(d)
+
+
+
+
+
+    
+# a=int(input('enter purchase amount'))
+# if a>=100:
+#     discount=(10/100)*a
+#     print(discount)
+#     print('amount=',a-discount)
+# elif a>=50:
+#     discount=(5/100)*a
+#     print(discount)
+#     print('amount=',a-discount)
+# else:
+#     print(a)
+
+# a=77
+# b=int(input('enter a number '))
+# if a<b:
+#     print('too high')
+# elif a>b:
+#     print('too low')
+# elif a==b:
+#     print('correct')
+
+
+
+
+
+# a=int(input('enter a year'))
+# if a in range(0,3000,4):
+#     print('leap year')
+# else:
+#     print('not a leap year')
+
+
+# temp=float(input('enter temp'))
+# unit=str(input('enter unit(f or c)'))
+# if unit=='f':
+#     f=(temp*1.8)+32
+#     print("f temp ",f)
+# elif unit=='c':
+#     f=(temp-32)/1.8
+#     print("c temp ",f)# elif op=='*':
+# elif a>=21 and a<=24:
+# elif a>=21 and a<=24:
+# elif a>=21 and a<=24:
+# elif a>=21 and a<=24:
+# elif a>=21 and a<=24:
 #     c=num1*num2
 #     print(c)
 # elif op=='/':

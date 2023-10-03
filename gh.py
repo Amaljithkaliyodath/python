@@ -20,8 +20,8 @@
 # print(b.swapcase())
 
 
-a="amaljith"
-a[::-1]
-print("palindrone")
+# a="amaljith"
+# a[::-1]
+# print("palindrone")
 
- 
+#  print()
