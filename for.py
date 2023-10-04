@@ -7,7 +7,28 @@
 
 
 #  count the no of duplicate elements  in list 
-a=[1,2,3,4,3,5,4]
-# for i in a:
-a.append()
-print(a)
+# a=[1,1,1,3,3,2,4,5,6,7,4,4]
+# c=0
+# for i in set(a):
+#  b=a.count(i)
+#  if b>1:
+#     print(i,b,*a)
+
+
+
+a="abababababab"
+c=0
+for i in a:
+  if i=='a':
+    c=c+1
+    if i=='b':
+      c=c-1
+    elif c==0:
+      print('balanced')
+    else:
+      print("not balanced")
+
+
+
+
+ 
