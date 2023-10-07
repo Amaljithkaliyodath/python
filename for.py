@@ -26,26 +26,28 @@
 #     elif c==0:
 #       print('balanced')
 #     else:
+
+# a=[2,3,4,1,5]
+
+
+# tar=6
+# b=[]
+
+
+# if a[0]+a[1]==tar:
+#     b.append(0)
+
+# a=[2,3,4,1,5]
+# tar=6
+# b=[]
+# if a[0]+a[1]==tar:
+#     b.append(0)
 #       print("not balanced")
 
 
 a=[2,3,4,1,5]
 tar=6
 b=[]
-# if a[0]+a[1]==tar:
-#     b.append(0)
-#     b.append(1)
-#     print(b)
-# elif a[1]+a[2]==tar:
-#     b.append(1)
-#     b.append(2)
-#     print(b)
-# elif a[0]+a[2]==tar:
-#     b.append(0)
-#     b.append(2)
-#     print(b)
-# else:
-#     print(b)
 for i in range(0,len(a)):
     for j in range(i+1,len(a)):
         if a[i]+a[j]==tar:
