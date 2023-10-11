@@ -149,14 +149,14 @@
 # elif a<=4:
 #     print('good night')
 
-# a=str(input('enter a character'))
-# print(a.isdigit())
-# print(a.isalpha())
-# print(a.isalnum())
-# if (a.upper()):
-#   print(a,'is uppercase')
-# elif (a.lower()):
-#   print(a,'is lowercase')
+a=str(input('enter a character'))
+print(a.isdigit())
+print(a.isalpha())
+print(a.isalnum())
+if (a.upper()):
+  print(a,'is uppercase')
+elif (a.lower()):
+  print(a,'is lowercase')
 
 
 # num1=int(input('enter frist number'))
