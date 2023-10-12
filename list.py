@@ -4,13 +4,13 @@
 # print(list3)
 
 
-fruits=['apple','banana','cherry']
-b=['blueberry','grape']
+# fruits=['apple','banana','cherry']
+# b=['blueberry','grape']
 # fruits.append('kiwi')
 # fruits.insert(1,'orange')      #4
-fruits.extend(b)
-fruits.remove('banana')
-print(fruits)
+# fruits.extend(b)
+# fruits.remove('banana')
+# print(fruits)
 
 # fruits=['apple','banana','cherry']
 # print(fruits.count('apple'))          #8
