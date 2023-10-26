@@ -1,8 +1,8 @@
 student={}
 regno=100
 studentli=[]
-teacher={}
-teacherlist=[]
+teachlist={}
+teachstore=[]
 studentstore=[]
 while True:
     print('''
@@ -22,25 +22,25 @@ while True:
         student['regno']=regno
         regno=regno+1
         studentli.append(student.copy())
-    if choice==2:   
-              for i in studentli:
-                     for j,k in i.items():
-
-                        print(j,';',k)
+    if choice==2:
+             name=input('enter your name')         
+             teachlist.append(name)
+        
     if choice==3:
-         teachername=input('enter teacher name')
-         teacher['teachername']=teachername
-         teachdepartment=input('enter teaching department')
-         teacher['teacherdepartment']=teachdepartment
-         teacherlist.append(teacher.copy())
-    elif choice==4:    
-                  for i in teacherlist:
-                       for j,k in i.items():
-                           print(j,';',k)
-            
-    elif choice==5:  
-        stdname=input('enter student name')           
-        student['stdname']=stdname
-    elif choice==6:
+        print(studentli)
+    if choice==4:    
+             print(teachlist)       
+    if choice==5: 
+             student=input('enter student name') 
+             for i in studentli:          
+                   studentstore.append(i["name"])
+             b=len(teachlist)
+             for j in range(b):
+                    if student in studentstore:
+                         for i in studentli:
+                               if i["name"]==student:
+                                i["teacher"]=teachlist[j]
+                    print(studentli)
+    if choice==6:
    
            exit()
