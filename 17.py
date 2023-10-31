@@ -1,4 +1,6 @@
 a={
+    0:"^",
+    1:"*",
     2:"abc",
     3:"def",
     4:"ghi",
@@ -9,6 +11,9 @@ a={
     9:"wxyz"
 }
 b=int(input("enter a number"))
+
+if b<=9:
+    print()
 c=b//10
 d=b%10
 num=a[c]
