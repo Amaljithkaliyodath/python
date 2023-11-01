@@ -11,10 +11,8 @@ a={
     9:"wxyz"
 }
 b=int(input("enter a number"))
-
 if b<=9:
-    print()
-c=b//10
+ c=b//10
 d=b%10
 num=a[c]
 num1=a[d]
