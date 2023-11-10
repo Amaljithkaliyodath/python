@@ -1,4 +1,4 @@
-r=""
+r="USA"
 if (r.upper()):
   print('true')
 elif (r.lower()):
