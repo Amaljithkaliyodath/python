@@ -1,6 +1,7 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from  .models import *
 # Create your views here.
 
 def index(request):
-    return HttpResponse('<h1>this balalallal page</h1>')
+    student=Student.objects.all()
+    return render(request,'index.html',{'student':student})

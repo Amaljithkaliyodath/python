@@ -22,4 +22,4 @@ class Student_display(admin.ModelAdmin):
 admin.site.register(Department,Department_display)
 admin.site.register(Batch,Batch_display)
 admin.site.register(Teacher,Teacher_display)
-admin.site.register(student,Student_display)
+admin.site.register(Student,Student_display)
